@@ -43,13 +43,13 @@ font-family: 'Satisfy', cursive;*/
 :root {
 	--thm-font: 'Barlow Condensed', sans-serif;
 	--heading-font: 'Satisfy', cursive;
-	--thm-base: #ffa801;
+	--thm-base: #f99d1d;
 	--thm-base-rgb: 255, 168, 1;
 	--thm-primary: #40b9eb;
 	--thm-primary-rgb: 64, 185, 235;
-	--thm-secondary: #ff0143;
+	--thm-secondary: #f99d1d;
 	--thm-secondary-rgb: 255, 1, 67;
-	--thm-black: #082740;
+	--thm-black: #4d2a79;
 	--thm-black-rgb: 8, 39, 64;
 	--thm-gray: #eceeef;
 }
@@ -432,7 +432,7 @@ h6 {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	opacity: 0.07;
-	background-color: #004c85;
+	background-color: #783895;
 	background-blend-mode: multiply;
 	z-index: 10;
 }
@@ -544,7 +544,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .topbar-one {
-	background-color: #004c85;
+	background-color: #783895;
 }
 
 .topbar-one .container-fluid {
@@ -1074,11 +1074,11 @@ h6 {
 
 
 .main-nav__header-three {
-	background-color: #004c85;
+	background-color: #783895;
 }
 
 .main-nav__header-three .stricked-menu {
-	background-color: #004c85;
+	background-color: #783895;
 }
 
 .main-nav__header-four .container,
@@ -1113,7 +1113,7 @@ h6 {
 }
 
 .main-nav__header-three .main-nav__main-navigation .main-nav__navigation-box>li>a {
-	color: #a2c8e4;
+	color: #ca9bd3;
 }
 
 .main-nav__header-four .main-nav__main-navigation .main-nav__navigation-box>li>a {
@@ -1562,7 +1562,7 @@ h6 {
 .site-footer__bottom-home-7 {
 	border-top: 0;
 	padding-top: 0;
-	background-color: #004c85;
+	background-color: #783895;
 }
 
 .site-footer__bottom-home-7 p {
@@ -1574,7 +1574,7 @@ h6 {
 	border-top: 0;
 }
 .site-footer__bottom-home-8 p {
-	color: #a2c8e4;
+	color: #ca9bd3;
 }
 
 
@@ -1890,12 +1890,12 @@ h6 {
 }
 
 .mobile-nav__container li a:hover {
-	color: #004c85;
+	color: #783895;
 }
 
 .mobile-nav__container li.current-menu-item>a,
 .mobile-nav__container li.current>a {
-	color: #004c85;
+	color: #783895;
 }
 
 
@@ -2186,7 +2186,7 @@ h6 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	opacity: 0.03;
+	opacity: 0.08;
 	-webkit-transform: translateX(-50%) translateY(-65%);
 	        transform: translateX(-50%) translateY(-65%);
 	color: var(--thm-black);
@@ -2211,17 +2211,17 @@ h6 {
 }
 .banner-three__top-inner h3 {
 	margin: 0;
-	font-size: 100px;
+	font-size: 80px;
 	color: var(--thm-black);
-	font-family: var(--thm-font);
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	letter-spacing: .1em;
-	font-weight: 400;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 .banner-three__top-inner p {
 	position: absolute;
 	right: 10px;
-	bottom: 5px;
+	bottom: -15px;
 	color: var(--thm-secondary);
 	font-family: var(--heading-font);
 	margin: 0;
@@ -2271,12 +2271,13 @@ h6 {
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 2;
 }
 
 .banner-three__sun {
 	position: absolute;
 	top: 5%;
-	left: 10%;
+	left: 30%;
 	-webkit-animation: sunMove 10s linear infinite;
 	        animation: sunMove 10s linear infinite;
 }
@@ -3102,7 +3103,7 @@ h6 {
 
 .sidebar__search,
 .sidebar__twitter {
-	background-color: #004c85;
+	background-color: #783895;
 }
 
 .sidebar__title {
@@ -3444,7 +3445,7 @@ h6 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #004c85;
+	background: #783895;
 	opacity: 0.8;
 }
 
@@ -4031,7 +4032,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .error-page {
-	background-color: #004c85;
+	background-color: #783895;
 	position: relative;
 	padding-top: 60px;
 	padding-bottom: 120px;
@@ -4053,7 +4054,7 @@ h6 {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	opacity: 0.07;
-	background-color: #004c85;
+	background-color: #783895;
 	background-blend-mode: multiply;
 }
 
@@ -6823,7 +6824,7 @@ h6 {
 }
 
 .tour-search-one__home-seven {
-	background-color: #004c85;
+	background-color: #783895;
 	padding-top: 0;
 	padding-top: 110px;
 	padding-bottom: 105px;
@@ -6932,4 +6933,7 @@ tour-search-one__home-seven .tour-search-one__input-box .bootstrap-select > .dro
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	        transform: translateY(-50%) translateX(-50%);
 	box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.2);
+}
+.main-nav__logo img{
+	width: 250px;
 }
